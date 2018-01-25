@@ -24,7 +24,7 @@ def check_ipv4_validity(ip_address):
 def excute_command(ip,username,password,cmd_file):
     #Change exception message
     try:
-        #Logging into device
+        #Logging into device (applied for SSH to Cisco Router
         print "------------------------------------------------------------------------------"
         print "Started logging into device %s" % ip
         session = paramiko.SSHClient()
